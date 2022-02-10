@@ -16,7 +16,7 @@ echo "=================================================================="
 echo "Set kubectl auto completion for bash..."
 echo "=================================================================="
 
-source <(kubectl completion bash)
+#source <(kubectl completion bash)
 echo "source <(kubectl completion bash)" >> ~/.bashrc
 
 echo "Done"
